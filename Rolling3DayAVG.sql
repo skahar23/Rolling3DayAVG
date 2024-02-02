@@ -1,3 +1,6 @@
+/* Using this dataset, show the SQL query to find the rolling 3 day average transaction amount for each day in January 2021. */
+
+
 SELECT
 transaction_date,avg_day,
 AVG(avg_day) OVER(
